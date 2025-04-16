@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://media.istockphoto.com/id/1092630816/photo/soybean-plantation-at-sunny-day.webp?a=1&b=1&s=612x612&w=0&k=20&c=L1nu77-Zp2EUvfgpnb8aSubeKPIkXnUe-mhUyuZ85NI='); /* Replace with your image path */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keep the background fixed during scrolling */
+}
+
+.crop-checker-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+  background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+}
+
+
+
+.crop-checker-title {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.crop-checker-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.crop-checker-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.crop-checker-button:hover {
+  background-color: #43a047;
+}
+
+.image-preview {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: #d32f2f;
+  margin-top: 10px;
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.result-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result-text {
+  white-space: pre-line; /* Preserve line breaks */
+}
